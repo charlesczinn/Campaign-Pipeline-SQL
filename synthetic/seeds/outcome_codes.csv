@@ -1,0 +1,17 @@
+channel,outcome,label,is_attempt,is_response,is_reach,is_exclusion
+door,canvassed,Talked at the door,true,true,true,false
+door,not_home,Not home,true,false,false,false
+door,inaccessible,Could not get to the door,true,false,false,false
+door,refused,Refused to talk,true,true,false,true
+door,moved,Moved away,true,false,false,true
+phone,talked,Talked on the phone,true,true,true,false
+phone,no_answer,No answer,true,false,false,false
+phone,left_message,Left a message,true,false,false,false
+phone,wrong_number,Wrong number,true,false,false,true
+phone,refused,Refused to talk,true,true,false,true
+phone,do_not_call,Asked not to be called,true,true,false,true
+text,sent,Delivered with no reply,true,false,false,false
+text,replied,Replied,true,true,true,false
+text,opted_out,Opted out,true,true,false,true
+text,undeliverable,Could not be delivered,false,false,false,true
+event,attended,Attended a volunteer event,false,false,false,false

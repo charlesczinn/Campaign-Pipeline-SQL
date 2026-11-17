@@ -1,0 +1,16 @@
+region,channel,universe,attempted,reached,attempted_rate,contact_rate
+Capital,door,6134,2799,1072,0.4563,0.383
+Capital,phone,6134,1974,344,0.3218,0.1743
+Capital,text,6134,388,292,0.0633,0.7526
+Harbor,door,9468,5592,2237,0.5906,0.4
+Harbor,phone,9468,2780,446,0.2936,0.1604
+Harbor,text,9468,605,449,0.0639,0.7421
+Lakes,door,4220,1380,525,0.327,0.3804
+Lakes,phone,4220,1382,236,0.3275,0.1708
+Lakes,text,4220,222,167,0.0526,0.7523
+Ridge,door,1174,145,42,0.1235,0.2897
+Ridge,phone,1174,331,76,0.2819,0.2296
+Ridge,text,1174,59,42,0.0503,0.7119
+All regions,door,20996,9916,3876,0.4723,0.3909
+All regions,phone,20996,6467,1102,0.308,0.1704
+All regions,text,20996,1274,950,0.0607,0.7457

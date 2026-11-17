@@ -1,0 +1,16 @@
+region,question_code,people_reached,answered_count,answer_rate,avg_score
+Capital,ride_needed,1648,1018,0.6177,
+Capital,support_check,1648,1467,0.8902,1.25
+Capital,vote_plan,1648,1424,0.8641,
+Harbor,ride_needed,3050,1848,0.6059,
+Harbor,support_check,3050,2777,0.9105,1.16
+Harbor,vote_plan,3050,2597,0.8515,
+Lakes,ride_needed,904,572,0.6327,
+Lakes,support_check,904,826,0.9137,1.33
+Lakes,vote_plan,904,779,0.8617,
+Ridge,ride_needed,155,89,0.5742,
+Ridge,support_check,155,139,0.8968,1.41
+Ridge,vote_plan,155,134,0.8645,
+All regions,ride_needed,5757,3527,0.6126,
+All regions,support_check,5757,5209,0.9048,1.22
+All regions,vote_plan,5757,4934,0.857,

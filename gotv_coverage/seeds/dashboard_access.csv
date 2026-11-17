@@ -1,0 +1,11 @@
+email,scope_type,scope_value
+data.team@example.org,state,
+harbor.lead@example.org,region,Harbor
+capital.lead@example.org,region,Capital
+lakes.lead@example.org,region,Lakes
+ridge.lead@example.org,region,Ridge
+wm03.director@example.org,congressional,WM-03
+hd07.organizer@example.org,house,HD-07
+hd07.organizer@example.org,house,HD-08
+two.hats@example.org,region,Lakes
+two.hats@example.org,congressional,WM-03

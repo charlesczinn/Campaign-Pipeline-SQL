@@ -1,0 +1,13 @@
+question_code,answer_code,answer_label,answer_value
+support_check,1,Strong support,1
+support_check,2,Lean support,2
+support_check,3,Undecided,3
+support_check,4,Lean oppose,4
+support_check,5,Strong oppose,5
+vote_plan,mail,Voting by mail,
+vote_plan,early_in_person,Voting early in person,
+vote_plan,election_day,Voting on Election Day,
+vote_plan,already_voted,Already voted,
+vote_plan,unsure,Not sure yet,
+ride_needed,yes,Needs a ride to the polls,
+ride_needed,no,Does not need a ride,

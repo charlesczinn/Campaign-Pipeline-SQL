@@ -1,0 +1,15 @@
+# Generated data and databases (rebuild with synthetic/generate.py)
+data/
+*.duckdb
+*.duckdb.wal
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors / OS
+.DS_Store
+.vscode/
+.idea/

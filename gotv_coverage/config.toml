@@ -1,0 +1,32 @@
+# Westmark GOTV coverage pipeline settings.
+# Routine changes (dates, rules, script) happen here; the SQL never needs editing for them.
+
+[run]
+database = "data/westmark.duckdb"   # relative to the repo root
+raw_dir = "data/raw"
+output_dir = "gotv_coverage/output"
+timezone = "America/Chicago"        # contact logs are stored in UTC; reports use local days
+
+[gotv]
+start = 2026-10-13                  # the universe is frozen as of this day
+as_of = 2026-11-03                  # snapshot day; set earlier to see a mid-GOTV view
+# How a text counts as an attempt:
+#   "responded" = only when the person replied (texts are cheap, so sends alone overstate effort)
+#   "sent"      = every delivered text
+text_attempt_rule = "responded"
+
+[universe]
+# Modeled supporters with uncertain turnout
+model_support_min = 65
+model_turnout_min = 20
+model_turnout_max = 80
+# Self-reported support before GOTV (1 = strong support, 2 = lean support)
+self_id_max_value = 2
+# Pre-GOTV answers at or above this value (4 = lean oppose) remove someone
+opposed_min_value = 4
+
+[script]
+support_question = "support_check"
+questions = ["support_check", "vote_plan", "ride_needed"]
+# Questions with an ordinal 1-5 answer that can be averaged. The rest only count toward completion.
+scored = ["support_check"]
